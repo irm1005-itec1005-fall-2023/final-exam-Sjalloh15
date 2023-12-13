@@ -22,6 +22,220 @@
 
   <!-- Set the Favicon  -->
   <link rel="icon" href="./images/favicon/window.svg" type="image/svg+xml" />
+  <style>
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+       box-sizing: border-box;
+    }
+
+    header {
+        display: none; /* Hidden text - not visible on screen */
+    }
+
+    main {
+    
+        padding: 20px;
+    }
+
+    section {
+        margin-bottom: 40px;
+        padding: 20px;
+            border: 1px solid #392c2c;
+            background-color: #050505;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    footer {
+        display: none; /* Hidden text - not visible on screen */
+    }
+   .button{background-color: #090b0c;
+            color: #fff;
+            padding: 1px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;} 
+
+
+
+
+            .button-3 { 
+            color: #0e0c0c;
+            background-color: #7b315d;
+            padding: 1px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+          } 
+            .button-2 { 
+            color: #0e0c0c;
+            background-color: #7b315d;
+            padding: 1px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+          } 
+            
+      .button-1 { 
+            color: #0e0c0c;
+            background-color: #7b315d;
+            padding: 1px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+          } 
+
+          .button-6 { 
+            color: #0e0c0c;
+            background-color: #7b315d;
+            padding: 1px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+          } 
+
+          .button-7 { 
+            color: #0e0c0c;
+            background-color: #7b315d;
+            padding: 1px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+          } 
+          .button-8 { 
+            color: #0e0c0c;
+            background-color: #7b315d;
+            padding: 1px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+          } 
+          .button-9 { 
+            color: #0e0c0c;
+            background-color: #7b315d;
+            padding: 1px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+          } 
+          .button-5 { 
+            color: #0e0c0c;
+            background-color: #7b315d;
+            padding: 1px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+          } 
+          .button-4 { 
+            color: #0e0c0c;
+            background-color: #7b315d;
+            padding: 1px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+          } 
+          .button-10 { 
+            color: #0e0c0c;
+            background-color: #f061b7;
+            padding: 0px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+          } 
+
+            html {
+  font-size: 1.0rem;
+}
+
+
+
+main {
+            display: grid;
+            grid-template-areas:
+                "hero"
+                "skills"
+                "about"
+                "my-work"
+                "contact-me";
+            grid-template-columns: 1fr;
+            grid-gap: 20px;
+            padding: 20px;
+        }
+
+        section {
+            padding: 20px;
+            border: 1px solid #222020;
+            background-color: #c886ca;
+        }
+
+        #hero {
+            grid-area: hero;
+            text-align: center;
+        }
+
+       .flex-container{
+       display: flex;
+       justify-content: space-between;
+       margin-top: 20px;
+       border-radius: 10px;
+       text-align: center;
+      }
+
+      .flex-item{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    background-color: rgb(95, 30, 84);
+    color: #fff;
+    border: 2px solid black;
+
+      }
+
+        #about {
+            
+        }
+
+        #my-work {
+          
+            display: grid;
+            grid-gap: 20px;
+        }
+
+        .work-item {
+            border: 1px;
+            padding: 10px;
+            
+            text-align: center;
+        }
+
+        #contact-me {
+            grid-area: contact-me;
+        }
+
+        footer {
+            display: none; /* Hidden text - not visible on screen */
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+/*
+ * SHARED STYLES
+ */
+
+.page-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1.0rem;
+  background-color: #0e0c0c;
+}
+</style>
 
 </head>
 
@@ -114,11 +328,99 @@
 
   -->
 
-  <main>
+ 
     <div class="page-container">
-      <h1>Complete Your Final Exam Here</h1>
+    
+      <header>
+        <h1>Amy's Web Development Agency</h1>
+        <img src="./images/logo/logo-dark.svg" alt="Amy's Web Development Agency Logo">
+        <p>Contact Us</p>
+    </header>
     </div>
+  
+    <main>
+      <section 5 id="hero">
+        <h2>Web development Solutions Made Easy</h2>
+     <p>Crafting Digital Dreams: Transformating Code into Captivating Experiences - Your Vision, My Expertise. </p>
+      </section>
+      
+      <section 4 id="skills">
+        <h2>My Skills</h2>
+        <div class="flex-container">
+            <div class ="flex-item">Web Development</div>
+            <div class ="flex-item">UX/UI</div>
+            <div class ="flex-item">JavaScript</div>
+            <div class ="flex-item">HTML</div>
+            <div class ="flex-item">GitHub</div>
+          </div>
+    </section>
+
+    <section 1 id="about">
+      <h2>About Me</h2>
+      <img src="./images/about/about.jpg" alt="Amy's Picture in Business Attire with a Pink Background">
+      <h3>Hey, I'm Amy. Are you ready to level up your web project?</h3>
+      <p>I'm a web developer based in Ottawa, Canada. I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences.</p>
+      <button class= "button-10" type="style">Contact me</button>
+  </section>
+
+
+  <section 2 id="my-work">
+    <h2>My Work</h2>
+
+    <div class="work-item">
+        <img src="./images/work/work-1.png" alt="Screenshot of Tutorial Exercise 03">
+        <p>Tutorial Exercise 03</p>
+        <button class= "button-8" type="style">HTML</button>
+        <button class= "button-9" type="style">CSS</button>
+    </div>
+
+    <div class="work-item">
+        <img src="./images/work/work-2.png" alt="Screenshot of Tutorial Exercise 05">
+        <p>Tutorial Exercise 05</p>
+        <button class= "button-6" type="style">HTML</button>
+        <button class= "button-7" type="style">CSS</button>
+    </div>
+
+    <div class="work-item">
+        <img src="./images/work/work-3.png" alt="Screenshot of Tutorial Exercise 07">
+        <p>Tutorial Exercise 07</p>
+        <button class= "button-4" type="style">HTML</button>
+        <button class= "button-5" type="style">CSS</button>
+       
+        
+    </div>
+
+    <div class="work-item">
+        <img src="./images/work/work-4.png" alt="Screenshot of Tutorial Exercise 09">
+        <p>Tutorial Exercise 09</p>
+        <button class= "button-1" type="style">HTML</button>
+        <button class= "button-2" type="style">CSS</button>
+        <button class= "button-3" type="style">JavaScript</button>
+        
+    </div>
+
+
+     
+
+
+
+
   </main>
+
+  <section 3 id="contact me">
+    <h1>Book A Call With Me</h1>
+    <p>Excited to chat! Whether you have a project in mind or just want to explore possibilities, lets connect use the form below to suggest a time, and i'll reach out to confirm. Can't wait to discuss your ideas!</p>
+    <button class="button" type="contact">Contact Me</button>
+  </section>
+
+  <footer>
+<img src="./images/logo/logo-dark.svg" alt="amy's web development agency logo">
+ <p>&copy; 2023 Amy's Web Development Agency</p>
+ 
+
+
+ 
+  </footer>
 
 
 </body>
